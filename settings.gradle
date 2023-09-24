@@ -1,0 +1,3 @@
+def subprojects = ['JavaExamples', 'GroovyExamples']
+
+include(subprojects as String[])

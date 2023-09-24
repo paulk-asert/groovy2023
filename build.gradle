@@ -1,0 +1,13 @@
+allprojects {
+    apply plugin: 'groovy'
+
+    ext.groovyVersion = '5.0.0-alpha-2'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        implementation "org.apache.groovy:groovy-all:$groovyVersion"
+    }
+}
