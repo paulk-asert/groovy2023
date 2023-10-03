@@ -9,5 +9,7 @@ allprojects {
 
     dependencies {
         implementation "org.apache.groovy:groovy-all:$groovyVersion"
+        implementation "org.apache.groovy:groovy-contracts:$groovyVersion"
+        implementation "org.apache.commons:commons-math3:3.6.1"
     }
 }
